@@ -6,3 +6,8 @@ resource "aws_s3_bucket" "a_very_bad_public_s3_bucket" {
   bucket = "my-public-bucket-3"
   acl    = "public-read"
 }
+
+resource "aws_s3_bucket" "a_second_bad_public_s3_bucket" {
+  bucket = "my-public-bucket-8"
+  acl    = "public-read"
+}
