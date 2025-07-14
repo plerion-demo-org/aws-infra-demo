@@ -1,0 +1,17 @@
+{
+  "name": "aws-infra-demo",
+  "version": "1.0.0",
+  "description": "Demo project showcasing infrastructure as code scanning and code fixing capabilities of Plerion",
+  "homepage": "https://github.com/plerion-demo-org/aws-infra-demo#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/plerion-demo/aws-infra-demo.git"
+  },
+  "license": "UNLICENSED",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}
